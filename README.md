@@ -16,4 +16,5 @@ yarn add react-router-dom
 yarn create react-app my-app --template typescript
 yarn add @material-ui/core
 yarn add react-router-dom
+yarn add @types/react-router-dom --dev
 ```

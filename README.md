@@ -7,9 +7,11 @@ https://create-react-app.dev/docs/adding-typescript/
 ## Without Typescript
 ```bash
 yarn create react-app my-app
+yarn add @material-ui/core
 ```
 
 ## With Typescript
 ```bash
 yarn create react-app my-app --template typescript
+yarn add @material-ui/core
 ```

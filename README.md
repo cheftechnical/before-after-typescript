@@ -8,10 +8,12 @@ https://create-react-app.dev/docs/adding-typescript/
 ```bash
 yarn create react-app my-app
 yarn add @material-ui/core
+yarn add react-router-dom
 ```
 
 ## With Typescript
 ```bash
 yarn create react-app my-app --template typescript
 yarn add @material-ui/core
+yarn add react-router-dom
 ```

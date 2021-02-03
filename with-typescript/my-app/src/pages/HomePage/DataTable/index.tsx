@@ -4,7 +4,7 @@ import DeleteIcon from '@material-ui/icons/Delete';
 import EditIcon from '@material-ui/icons/Edit';
 import Data from '../../../types/Data';
 
-interface Props {
+export interface Props {
   data: Data[] | undefined;
   onDeleteRow?: (data: Data) => void;
   onEditRow?: (data: Data) => void;

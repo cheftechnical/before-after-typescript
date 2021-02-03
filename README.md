@@ -11,7 +11,7 @@ Some design notes:
 - To use the apps, you only need to follow the **installation** instructions and navigate to the correct address in your
   browser. The console will provide the correct URL.
 - Each application will run on a unique port, so you can run both of them at the same time
-- The *Building from scratch* section lists the commands I used to create the project, and are for reference only.
+- The *Building From Scratch* section lists the commands I used to create the project, and are for reference only.
   Running the installation instructions is enough for a working prototype.
 - For simplicity, I only added Storybook to the version with Typescript
 - I also omitted form validation for simplicity, but I'd *highly* recommend `react-hook-form`. I use it on

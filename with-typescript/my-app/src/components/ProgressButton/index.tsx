@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Button, CircularProgress, makeStyles} from '@material-ui/core';
 import {green} from '@material-ui/core/colors';
 
-interface Props {
+export interface Props {
   children: JSX.Element[] | JSX.Element | string;
   onClick?: () => void;
   waiting: boolean;

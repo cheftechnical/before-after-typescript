@@ -1,11 +1,24 @@
 import * as React from 'react';
-import {Meta} from '@storybook/react/types-6-0';
-import ProgressButton from './index';
+import {Meta, Story} from '@storybook/react/types-6-0';
+import ProgressButton, {Props} from './index';
 
 export default {
   title: 'Components/ProgressButton',
   component: ProgressButton
 } as Meta;
 
-export const Default: React.VFC<{}> = () => <ProgressButton waiting={false}>My Button</ProgressButton>
-export const Waiting: React.VFC<{}> = () => <ProgressButton waiting={true}>My Button</ProgressButton>
+const Template: Story<Props> = (args) => (
+  <ProgressButton {...args}>
+    My Button Text
+  </ProgressButton>
+);
+
+export const Default = Template.bind({});
+Default.args = {
+  waiting: false,
+};
+
+export const Waiting = Template.bind({});
+Waiting.args = {
+  waiting: true,
+};

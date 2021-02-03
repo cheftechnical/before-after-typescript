@@ -59,15 +59,17 @@ export default function HomePage() {
 
   return (
     <DefaultLayout>
-      <Typography gutterBottom variant="h5">Form</Typography>
-      <Paper className={classes.paper}>
-        <Form
-          onReset={handleReset}
-          onSubmit={handleSubmit}
-          onUpdate={handleUpdate}
-          values={selected}
-        />
-      </Paper>
+      <Box mt={5}>
+        <Typography gutterBottom variant="h5">Form</Typography>
+        <Paper className={classes.paper}>
+          <Form
+            onReset={handleReset}
+            onSubmit={handleSubmit}
+            onUpdate={handleUpdate}
+            values={selected}
+          />
+        </Paper>
+      </Box>
 
       <Box mt={5}>
         <Typography gutterBottom variant="h5">Applications</Typography>

@@ -6,12 +6,12 @@ import Form from './Form';
 
 const initialState = [
   {
-    id: 'abc-123',
+    id: '6df0eed7-0522-4629-86fc-f58c5b595e72',
     firstName: 'Simon',
     lastName: 'Yates',
     emailAddress: 'simon@sybaris.ca',
     phoneNumber: '416-904-6007',
-    experience: '<2',
+    experience: '< 2',
     truckOwnership: 'no',
   }
 ];

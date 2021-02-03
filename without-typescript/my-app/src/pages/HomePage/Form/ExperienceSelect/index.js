@@ -6,7 +6,7 @@ const label = 'How many years of CDL Class A experience do you have?';
 const selectMenuItems = [
   {
     label: 'Less than 2 years of experience',
-    value: '<2'
+    value: '< 2'
   },
   {
     label: 'Between 2 and 3 years of experience',

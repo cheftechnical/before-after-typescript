@@ -2,7 +2,7 @@ import * as React from 'react';
 import {Container} from '@material-ui/core';
 
 interface Props {
-  children: Element | string;
+  children: JSX.Element[] | JSX.Element | string;
 }
 
 export default function DefaultLayout(props: Props) {
